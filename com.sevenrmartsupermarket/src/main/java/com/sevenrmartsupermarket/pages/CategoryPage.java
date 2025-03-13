@@ -51,7 +51,6 @@ public class CategoryPage {
 		search_Button.click();
 		categoryText_Element.sendKeys(text + Keys.ENTER);
 		return categoryText_Element.getAttribute("value");
-		
 	}
 	
 	public void categoryTextSearchClick()
