@@ -1,0 +1,25 @@
+<suite name="CrossBrowserTest" thread-count="5" parallel="classes">
+	<test name="Run in Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+
+		<classes>
+			<class name="com.sevenrmartsupermarket.tests.LoginTest" />
+
+		</classes>
+	</test>
+
+	<test name="Run in Edge">
+		<parameter name="browser" value="edge"></parameter>
+		<classes>
+			<class name="com.sevenrmartsupermarket.tests.LoginTest" />
+		</classes>
+	</test>
+
+	<test name="Run in Firefox">
+		<parameter name="firefox" value="chrome"></parameter>
+		<classes>
+			<class name="com.sevenrmartsupermarket.tests.LoginTest" />
+		</classes>
+	</test>
+
+</suite>

@@ -1,0 +1,26 @@
+<suite name="RegressionTest" thread-count="5" parallel="classes">
+	<test name="Module1">
+		<classes>
+			<class name="com.sevenrmartsupermarket.tests.LoginTest" />
+
+		</classes>
+	</test>
+
+	<test name="Module2">
+		<classes>
+			<class name="com.sevenrmartsupermarket.tests.HomeTest" />
+		</classes>
+	</test>
+
+	<test name="Module3">
+	<classes>
+		<class name="com.sevenrmartsupermarket.tests.AdminUsersTest" />
+	</classes>
+	</test>
+
+	<test name="Module4">
+		<classes>
+			<class name="com.sevenrmartsupermarket.tests.CategoryTest" />
+		</classes>
+	</test>
+</suite>
